@@ -26,9 +26,6 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-video{
-  height: auto;
-  width: auto;
-  
+.video{
   
 }

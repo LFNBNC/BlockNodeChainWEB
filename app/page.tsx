@@ -14,7 +14,6 @@ export default function Home() {
           <a
             className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
             href="https://www.linkedin.com/company/lfnbnc"
-            target="_blank"
           >
             {''}
             <Image
@@ -27,12 +26,13 @@ export default function Home() {
         </div>
       </div>
       
-      <div>
+      <div className='video'>
        <video
-        className="absolute top-0 left-0 w-full h-half object-cover z-0"
+        className="  top-0 left-0 w-full h-full object-cover z-3"
          src="/vd.mp4"
-          width={500}
-          height={500}
+          width={100}
+          height={100}
+          autoPlay
           loop
         />
       </div>
