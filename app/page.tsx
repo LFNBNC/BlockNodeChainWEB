@@ -28,7 +28,7 @@ export default function Home() {
       
       <div>
        
-      <video className="video" src={"/vd.mp4"} width={100} height={100} autoPlay loop />
+      <video className="video" src={"/vd.mp4"} width={1000} height={1000} autoPlay loop />
 
       </div>
       
