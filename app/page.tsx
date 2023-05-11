@@ -26,7 +26,9 @@ export default function Home() {
         </div>
       </div>
       
-      <div className='flex justify-center '>
+      <div className='flex justify-center relative flex items-center 
+            justify-center h-screen mb-12 
+            overflow-hidden '>
        
       <video className="video" src={"/vd.mp4"}  width={1000} height={1000} autoPlay loop muted />
 
