@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import 'tailwindcss/tailwind.css'
 
 export default function Home() {
   return (
@@ -10,7 +11,10 @@ export default function Home() {
           <code className="font-sans font-sans"></code>
           Under Development
         </p>
-        <div className="fixed bottom-0 left-0 flex h-70 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
+       
+       
+       
+ <div className="fixed bottom-0 left-0 flex h-70 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
             className="fixed center top-4 right-10"
             href="https://www.linkedin.com/company/lfnbnc"
@@ -26,9 +30,7 @@ export default function Home() {
         </div>
       </div>
       
-      <div className='flex justify-center relative flex items-center 
-            justify-center h-screen mb-12 
-            overflow-hidden '>
+      <div className='flex justify-center items-center h-screen'>
        
       <video className="video" src={"/vd.mp4"}  width={1000} height={1000} autoPlay loop muted />
 
