@@ -20,17 +20,17 @@ export default function Home() {
           </div>
        
        
- <div className="fixed bottom-0 left-0 flex h-70 w-full items-end justify-bottom bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
+ <div className=" flex w-full items-end justify-end ">
           <a
-            className="fixed bottom-1 top-7 right-10"
+            className=" top-10 right-11"
             href="https://www.linkedin.com/company/lfnbnc"
           >
             {''}
             <Image
               src="/Main.png"
               alt="logo"
-              width={40}
-              height={40}
+              width={50}
+              height={50}
              />
           </a>
         </div>
