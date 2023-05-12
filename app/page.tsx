@@ -47,11 +47,12 @@ export default function Home() {
         <a
           href="https://github.com/L-F-N-BlockNodeChain"
           className="">
-          <h1 className= "flex justify-center text-0x0 font-bold">
-          Block Node Chain</h1>
+          <h1 className= "flex justify-center text-0x0 font-mono">
+          Block-Node-Chain</h1>
+          
         </a>
       </div>
-    
+      <h2 className='flex justify-center text-0x0 font-mono'>Github</h2>
     
     
   </main>
