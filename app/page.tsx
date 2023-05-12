@@ -4,9 +4,9 @@ import 'tailwindcss/tailwind.css'
 export default function Home() {
   return (
 
-    <main className="flex min-h-screen flex-col items-right justify-between p-10">
-      <div className="z-10 w-half max-w-5xl items-right justify-left font-mono text-sm lg:flex ">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-violet-400 bg-violet-800/30">
+    <main className="flex min-h-screen flex-col items-right justify-center p-10">
+      <div className="z-10 w-half max-w-5xl items-right justify-center font-Bold text-sm lg:flex ">
+        <p className="fixed left-0 top-0 flex w-full justify-center bg-violet-900/30">
           Block Node Chain&nbsp;
           <code className="font-sans font-sans"></code>
           Under Development
