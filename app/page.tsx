@@ -11,18 +11,18 @@ export default function Home() {
           <code className="font-sans font-sans"></code>
           Under Development
         </p>
-       <div className='flex-col justfiy-start'>
+       <div className='fixed justfiy-content left-10'>
           <a
           href="https://lfnbnc.gitbook.io/blockchain/"
           className="Border">
-            <h1 className={'text-2x1 font-mono'}> Documentation </h1>
+            <h1 className={'text-2x1 font-mono '}> Documentation </h1>
            </a>
           </div>
        
        
- <div className=" flex w-full items-end justify-end ">
+ <div className="justify-end  ">
           <a
-            className=" top-10 right-11"
+            className="fixed flex justify-end top-10 right-11"
             href="https://www.linkedin.com/company/lfnbnc"
           >
             {''}
@@ -43,12 +43,11 @@ export default function Home() {
       </div>
       
       
-      <div className="link">
+      <div className="link flex justify-betwen">
         <a
           href="https://github.com/L-F-N-BlockNodeChain"
           className="Border">
-          <h1 className={` text-0x0 font-bold `}>
-            {' '}
+          <h1 className={`flex justify-center text-0x0 font-bold `}>
           Block Node Chain</h1>
         </a>
       </div>
