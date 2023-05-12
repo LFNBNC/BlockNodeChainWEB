@@ -9,7 +9,7 @@ export default function Home() {
         <p className="fixed left-0 top-0 shadow hover:shadow-lg flex w-full justify-center bg-violet-900/30">
           Block Node Chain Under Development
         </p>
-       <div className=' align-content: start'>
+       <div className='fixed content left-10'>
           <a
           href="https://lfnbnc.gitbook.io/blockchain/"
           className="Border">
