@@ -11,7 +11,7 @@ export default function Home() {
           <code className="font-sans font-sans"></code>
           Under Development
         </p>
-       <div className='fixed justfiy-content left-10'>
+       <div className='fixed content left-10'>
           <a
           href="https://lfnbnc.gitbook.io/blockchain/"
           className="Border">
@@ -43,11 +43,11 @@ export default function Home() {
       </div>
       
       
-      <div className="link flex justify-betwen">
+      <div>
         <a
           href="https://github.com/L-F-N-BlockNodeChain"
-          className="Border">
-          <h1 className={`flex justify-center text-0x0 font-bold `}>
+          className="">
+          <h1 className= "flex justify-center text-0x0 font-bold">
           Block Node Chain</h1>
         </a>
       </div>
