@@ -15,7 +15,8 @@ export default function Home() {
           <a
           href="https://lfnbnc.gitbook.io/blockchain/"
           className="Border">
-            <h1 className={'text-2x1 font-mono '}> Documentation </h1>
+            <h1 className={'text-6x1 font-mono text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-violet-100 m-4 rounded-full bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500'}>
+               Documentation </h1>
            </a>
           </div>
        
