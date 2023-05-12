@@ -16,7 +16,7 @@ export default function Home() {
        
  <div className="fixed bottom-0 left-0 flex h-70 w-full items-end justify-bottom bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
-            className="fixed bottom-1 top-4 right-10"
+            className="fixed bottom-1 top-7 right-10"
             href="https://www.linkedin.com/company/lfnbnc"
           >
             {''}
