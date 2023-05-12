@@ -11,7 +11,13 @@ export default function Home() {
           <code className="font-sans font-sans"></code>
           Under Development
         </p>
-       
+       <div className='flex-col justfiy-start'>
+          <a
+          href="https://lfnbnc.gitbook.io/blockchain/"
+          className="Border">
+            <h1 className='font-bold bg-violet'> Documentation </h1>
+           </a>
+          </div>
        
        
  <div className="fixed bottom-0 left-0 flex h-70 w-full items-end justify-bottom bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
