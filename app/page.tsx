@@ -5,11 +5,9 @@ export default function Home() {
   return (
 
     <main className="flex min-h-screen flex-col items-right justify-center p-10">
-      <div className="z-10 w-half max-w-5xl items-right justify-center font-Bold text-sm lg:flex ">
-        <p className="fixed left-0 top-0 flex w-full justify-center bg-violet-900/30">
-          Block Node Chain&nbsp;
-          <code className="font-sans font-sans"></code>
-          Under Development
+      <div className="z-10 w-half max-w-base   justify-center font-mono text-base lg:flex ">
+        <p className="fixed left-0 top-0 shadow hover:shadow-lg flex w-full justify-center bg-violet-900/30">
+          Block Node Chain Under Development
         </p>
        <div className='fixed content left-10'>
           <a
