@@ -49,11 +49,11 @@ export default function Home() {
           href="https://github.com/L-F-N-BlockNodeChain"
           className="">
           <h1 className="flex justify-center text-0x0 font-mono">
-            Block-Node-Chain &crarr;</h1>
+            Block Node Chain &crarr;</h1>
 
         </a>
       </div>
-      <h2 className='flex justify-center text-0x0 font-mono'>Github</h2>
+      <h3 className='flex justify-center text-xs font-mono'>Github</h3>
 
       <div className="px-6 py-32">
         <div className="grid gap-7 items-start justify-center">
