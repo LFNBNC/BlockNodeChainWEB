@@ -6,14 +6,14 @@ export default function Home() {
 
     <main className="flex min-h-screen flex-col items-right justify-center p-10">
       <div className="z-10 w-half max-w-base   justify-center font-mono text-base lg:flex ">
-        <p className="fixed left-0 top-0 shadow hover:shadow-lg flex w-full justify-center bg-violet-900/30">
-          Block Node Chain Under Development
+        <p className="fixed left-0 top-0 shadow hover:shadow-lg flex w-full justify-center bg-black">
+          Block Node Chain Under Development &#169;
         </p>
         <div className='fixed content left-10'>
           <a
             href="https://lfnbnc.gitbook.io/blockchain/"
             className="Border">
-            <h1 className={' l-10 p-1 text-indigo-400 group-hover:text-gray-100 transition duration-200'}>
+            <h1 className={'font-xl '}>
               Documentation &crarr;</h1>
           </a>
         </div>
