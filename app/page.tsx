@@ -13,7 +13,7 @@ export default function Home() {
           <a
             href="https://lfnbnc.gitbook.io/blockchain/"
             className="Border">
-            <h1 className={'font-xl '}>
+            <h1 className={' fixed flex top-10 left-11  '}>
               Documentation &crarr;</h1>
           </a>
         </div>
@@ -34,11 +34,10 @@ export default function Home() {
       </div>
 
       <div >
-      <section className="relative h-screen flex flex-col items-center justify-center text-center text-white py-0 px-3">
+     
     <div className="video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
         <video className="min-w-full min-h-full absolute object-cover" src="/vd.mp4"  autoPlay muted loop></video>
     </div>
-</section>
         
       </div>
 
