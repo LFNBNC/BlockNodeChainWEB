@@ -5,10 +5,10 @@ export default function Home() {
   return (
 
     <main className="flex min-h-screen flex-col items-right justify-center p-10">
-      <div className="z-10 w-half max-w-base   justify-center font-mono text-base lg:flex ">
-        <p className="fixed left-0 top-0 shadow hover:shadow-lg flex w-full justify-center bg-black">
+      <div className="z-10 w-half max-w-base justify-center font-mono text-base lg:flex ">
+        <h1 className="fixed left-0 top-0 shadow hover:shadow-lg flex w-full justify-center bg-purple">
           Block Node Chain Under Development &#169;
-        </p>
+         </h1>
         <div className='fixed content left-10'>
           <a
             href="https://lfnbnc.gitbook.io/blockchain/"
@@ -51,7 +51,7 @@ export default function Home() {
 
         </a>
       </div>
-      <h2 className='flex justify-center text-0x0 font-mono'>Github</h2>
+      <h2 className='flex justify-center text-xs font-mono'>Github</h2>
 
       <div className="px-6 py-32">
         <div className="grid gap-7 items-start justify-center">

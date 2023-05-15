@@ -23,15 +23,23 @@ body {
 }
 
 .video-docker video {
-  top: 100%;
-  left: 100%;
-  transform: translate(-100%, -100%);
+  top: 10%;
+  left: 10%;
+  transform: translate(-10%, -10%);
+  
 }
+
+.video-size
+{
+  width: 10%;
+  height: 40px;
+}
+
 .video-docker::after {
   content: "";
   position: center;
-  width: 100%;
-  height: 100%;
+  width: 10%;
+  height: 10%;
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.6);
