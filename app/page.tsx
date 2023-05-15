@@ -1,5 +1,8 @@
 import Image from 'next/image'
+import React from 'react';
 import 'tailwindcss/tailwind.css'
+import VideoBackground from '../Component/bvid';
+
 
 export default function Home() {
   return (
@@ -34,10 +37,8 @@ export default function Home() {
       </div>
 
       <div >
-     
-    <div className="video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
-        <video className="min-w-full min-h-full absolute object-cover" src="/vd.mp4"  autoPlay muted loop></video>
-    </div>
+      <VideoBackground />
+   
         
       </div>
 
