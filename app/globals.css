@@ -22,31 +22,5 @@ body {
   
 }
 
-.video-docker video {
-  top: 10%;
-  left: 10%;
-  transform: translate(-10%, -10%);
-  
-}
 
-.video-size
-{
-  width: 10%;
-  height: 40px;
-}
-
-.video-docker::after {
-  content: "";
-  position: center;
-  width: 10%;
-  height: 10%;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.6);
-  z-index: 1;
-}
-
-.video-content {
-  z-index: 2;
-}
 

@@ -36,12 +36,16 @@ export default function Home() {
         </div>
       </div>
 
-      <div >
+      <div>
       <VideoBackground />
+      <div className='width -100' >
    
-        
+        </div>
       </div>
 
+      
+      
+      
       <div>
         <a
           href="https://github.com/L-F-N-BlockNodeChain"
@@ -53,11 +57,11 @@ export default function Home() {
       </div>
       <h2 className='flex justify-center text-xs font-mono'>Github</h2>
 
-      <div className="px-6 py-32">
-        <div className="grid gap-7 items-start justify-center">
+      <div className="px-10 py-30">
+        <div className="grid gap-1 items-start justify-center">
           <div className="relative group">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-700 to-white-100 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-            <button className="relative px-7 py-4 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
+            <button className="relative px-3 py-1 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
               <span className="flex items-center space-x-5">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6 text-violet-600 rotate-10">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M11.412 15.655L9.75 21.75l3.745-4.012M9.257 13.5H3.75l2.659-2.849m2.048-2.194L14.25 2.25 12 10.5h8.25l-4.707 5.043M8.457 8.457L3 3m5.457 5.457l7.086 7.086m0 0L21 21" />
