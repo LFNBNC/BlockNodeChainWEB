@@ -38,26 +38,11 @@ export default function Home() {
 
       <div>
       <VideoBackground />
-      <div className='width -100' >
-   
-        </div>
       </div>
 
       
       
-      
-      <div>
-        <a
-          href="https://github.com/L-F-N-BlockNodeChain"
-          className="">
-          <h1 className="flex justify-center text-0x0 font-mono">
-            Block-Node-Chain &crarr;</h1>
-
-        </a>
-      </div>
-      <h2 className='flex justify-center text-xs font-mono'>Github</h2>
-
-      <div className="px-10 py-30">
+    <div className="px-10 py-10">
         <div className="grid gap-1 items-start justify-center">
           <div className="relative group">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-700 to-white-100 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
@@ -73,7 +58,17 @@ export default function Home() {
           </div>
         </div>
       </div>
+     
+      <div>
+        <a
+          href="https://github.com/L-F-N-BlockNodeChain"
+          className="">
+          <h1 className="fixed flex bottom-12 left-11 text-xm font-mono">
+            Block-Node-Chain &crarr;</h1>
 
+        </a>
+      </div>
+      <h2 className='fixed flex bottom-8 left-11 text-xs font-mono'>Github</h2>
 
 
 
