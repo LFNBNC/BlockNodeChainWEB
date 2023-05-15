@@ -36,7 +36,7 @@ export default function Home() {
       <div >
       <section className="relative h-screen flex flex-col items-center justify-center text-center text-white py-0 px-3">
     <div className="video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
-        <video className="min-w-full min-h-full absolute object-cover" src="/vd.mp4" type="video/mp4" autoplay muted loop></video>
+        <video className="min-w-full min-h-full absolute object-cover" src="/vd.mp4"  autoPlay muted loop></video>
     </div>
 </section>
         
