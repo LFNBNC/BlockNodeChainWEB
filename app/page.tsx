@@ -15,10 +15,10 @@ export default function Home() {
         <div className='fixed content left-10'>
           <a
             href="https://lfnbnc.gitbook.io/blockchain/"
-            className="Border">
-            <h1 className={' fixed flex top-10 left-11  '}>
-              Documentation &crarr;</h1>
-          </a>
+            >
+            <h1 className={' fixed flex top-10 left-11'}>
+               Documentation &crarr;</h1>
+             </a>
         </div>
         <div className="flex justify-center ">
           <a
@@ -42,7 +42,7 @@ export default function Home() {
 
       
       
-    <div className="px-10 py-10">
+    <div className=" px-8 py-8">
         <div className="grid gap-1 items-start justify-center">
           <div className="relative group">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-700 to-white-100 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
@@ -63,12 +63,12 @@ export default function Home() {
         <a
           href="https://github.com/L-F-N-BlockNodeChain"
           className="">
-          <h1 className="fixed flex bottom-12 left-11 text-xm font-mono">
+          <h1 className=" absolute flex bottom-12 left-11 text-xm font-mono">
             Block-Node-Chain &crarr;</h1>
 
         </a>
       </div>
-      <h2 className='fixed flex bottom-8 left-11 text-xs font-mono'>Github</h2>
+      <h2 className='absolute flex bottom-8 left-11 text-xs font-mono'>Github</h2>
 
 
 
