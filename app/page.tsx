@@ -37,20 +37,20 @@ export default function Home() {
       </div>
 
       
-      <div className="w-full h-[1559px] w-[2999px] overflow-hidden w-0">
+      <div className=" w-half h-[1559px] w-[2999px] overflow-hidden w-0">
       <Image
-        className="absolute center-[0px] left-[0px] w-[500px] h-[500px]"
+        className="absolute top-10 w-[250px] h-[250px]"
         alt=""
         src="/vector-1.svg"
-        width={100}
-        height={100}
+        width={1}
+        height={1}
       />
       <Image
-        className="absolute center-[0px] left-[0px] w-[500px] h-[500px]"
+        className="absolute w-[250px] h-[250px]"
         alt=""
         src="/vector-2.svg"
-        width={2148}
-        height={2184}
+        width={1}
+        height={1}
       />
     </div>
       
@@ -78,17 +78,14 @@ export default function Home() {
         <a
           href="https://github.com/L-F-N-BlockNodeChain"
           className="">
-          <h1 className=" fixed absolute flex bottom-12 left-11 text-xm font-mono">
+          <h1 className="  absolute flex bottom-12 left-11 text-xm font-mono">
             Block-Node-Chain &crarr;</h1>
 
         </a>
       </div>
-      <h2 className=' fixed absolute flex bottom-8 left-11 text-xs font-mono'>Github</h2>
+      <h2 className='  absolute flex bottom-8 left-11 text-xs font-mono'>Github</h2>
 
-
-
-
-    </main>
+</main>
   )
 }
 
