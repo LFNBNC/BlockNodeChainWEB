@@ -4,6 +4,7 @@ import 'tailwindcss/tailwind.css'
 import VideoBackground from '../Component/bvid';
 
 
+
 export default function Home() {
   return (
 
@@ -37,7 +38,7 @@ export default function Home() {
       </div>
 
       
-      <div className=" items-start h-[200px] w-[200px] overflow-hidden w-0">
+      <div className="p-1 h-[100px] w-[100px]  ">
       <Image
         className="absolute  w-[300px] h-[300px] "
         alt=""
