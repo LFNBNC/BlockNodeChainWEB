@@ -38,21 +38,7 @@ export default function Home() {
       </div>
 
       
-      <div className="p-1 h-[100px] w-[100px]  ">
-      <Image
-        className="absolute  w-[300px] h-[300px] "
-        alt=""
-        src="/vector-1.svg"
-        width={1}
-        height={1}
-      />
-      <Image
-        className=" absolute w-[300px] h-[300px] "
-        alt=""
-        src="/vector-2.svg"
-        width={10}
-        height={10}
-      />
+      <div>
       <VideoBackground/>
     </div>
       
