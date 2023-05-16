@@ -37,20 +37,20 @@ export default function Home() {
       </div>
 
       
-      <div className=" w-half h-[200px] w-[200px] overflow-hidden w-0">
+      <div className=" items-start h-[200px] w-[200px] overflow-hidden w-0">
       <Image
-        className="absolute  w-[250px] h-[250px] "
+        className="absolute  w-[300px] h-[300px] "
         alt=""
         src="/vector-1.svg"
         width={1}
         height={1}
       />
       <Image
-        className=" absolute w-[250px] h-[250px] "
+        className=" absolute w-[300px] h-[300px] "
         alt=""
         src="/vector-2.svg"
-        width={1}
-        height={1}
+        width={10}
+        height={10}
       />
       <VideoBackground/>
     </div>
