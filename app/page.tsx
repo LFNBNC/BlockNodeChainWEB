@@ -8,7 +8,7 @@ import VideoBackground from '../Component/bvid';
 export default function Home() {
   return (
 
-    <main className="flex min-h-screen flex-col items-right justify-center p-10">
+    <main className=" static min-h-screen flex-col items-right justify-center p-10">
       <div className="z-10 w-half max-w-base justify-center font-mono text-base lg:flex ">
         <h1 className="fixed left-0 top-0 shadow hover:shadow-lg flex w-full justify-center bg-violet-900/30">
           Block Node Chain Under Development &#169;
