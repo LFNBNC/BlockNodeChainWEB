@@ -52,6 +52,7 @@ export default function Home() {
         width={1}
         height={1}
       />
+      <VideoBackground/>
     </div>
       
 
