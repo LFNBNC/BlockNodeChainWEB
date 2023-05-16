@@ -38,7 +38,7 @@ export default function Home() {
       </div>
 
       
-      <div>
+      <div className='fixed'>
       <VideoBackground/>
     </div>
       
