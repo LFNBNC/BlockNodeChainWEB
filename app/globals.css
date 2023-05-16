@@ -19,7 +19,8 @@ body {
   color: rgb(var(--foreground-rgb));
   background-color: #000000;
   background-image: linear-gradient(180deg, #000000 0%, #000000 22%, #000000 49%, #000000 75%, #230a3b 100%);
-  
+ 
 }
+
 
 

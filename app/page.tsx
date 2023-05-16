@@ -9,14 +9,14 @@ export default function Home() {
 
     <main className="flex min-h-screen flex-col items-right justify-center p-10">
       <div className="z-10 w-half max-w-base justify-center font-mono text-base lg:flex ">
-        <h1 className="fixed left-0 top-0 shadow hover:shadow-lg flex w-full justify-center bg-purple">
+        <h1 className="fixed left-0 top-0 shadow hover:shadow-lg flex w-full justify-center bg-violet-900/30">
           Block Node Chain Under Development &#169;
          </h1>
         <div className='fixed content left-10'>
           <a
             href="https://lfnbnc.gitbook.io/blockchain/"
             >
-            <h1 className={' fixed flex top-10 left-11'}>
+            <h1 className={' flex top-10 left-11'}>
                Documentation &crarr;</h1>
              </a>
         </div>
@@ -36,9 +36,24 @@ export default function Home() {
         </div>
       </div>
 
-      <div>
-      <VideoBackground />
-      </div>
+      
+      <div className="w-full h-[1559px] w-[2999px] overflow-hidden w-0">
+      <Image
+        className="absolute center-[0px] left-[0px] w-[500px] h-[500px]"
+        alt=""
+        src="/vector-1.svg"
+        width={100}
+        height={100}
+      />
+      <Image
+        className="absolute center-[0px] left-[0px] w-[500px] h-[500px]"
+        alt=""
+        src="/vector-2.svg"
+        width={2148}
+        height={2184}
+      />
+    </div>
+      
 
       
       
@@ -63,12 +78,12 @@ export default function Home() {
         <a
           href="https://github.com/L-F-N-BlockNodeChain"
           className="">
-          <h1 className=" absolute flex bottom-12 left-11 text-xm font-mono">
+          <h1 className=" fixed absolute flex bottom-12 left-11 text-xm font-mono">
             Block-Node-Chain &crarr;</h1>
 
         </a>
       </div>
-      <h2 className='absolute flex bottom-8 left-11 text-xs font-mono'>Github</h2>
+      <h2 className=' fixed absolute flex bottom-8 left-11 text-xs font-mono'>Github</h2>
 
 
 
