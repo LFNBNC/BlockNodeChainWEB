@@ -16,7 +16,7 @@ export default function Home() {
           <a
             href="https://lfnbnc.gitbook.io/blockchain/"
             >
-            <h1 className={' flex top-10 left-11'}>
+            <h1 className={' fixed m-0  flex top-10 left-11'}>
                Documentation &crarr;</h1>
              </a>
         </div>
@@ -37,16 +37,16 @@ export default function Home() {
       </div>
 
       
-      <div className=" w-half h-[1559px] w-[2999px] overflow-hidden w-0">
+      <div className=" w-half h-[200px] w-[200px] overflow-hidden w-0">
       <Image
-        className="absolute top-10 w-[250px] h-[250px]"
+        className="absolute  w-[250px] h-[250px] "
         alt=""
         src="/vector-1.svg"
         width={1}
         height={1}
       />
       <Image
-        className="absolute w-[250px] h-[250px]"
+        className=" absolute w-[250px] h-[250px] "
         alt=""
         src="/vector-2.svg"
         width={1}
