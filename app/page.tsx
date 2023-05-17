@@ -56,7 +56,7 @@ export default function Home() {
                 </svg>
                 <span className="pr-6 text-white-100 font-mono">PoW x ZkP </span>
               </span>
-              <span className="font-mono pl-6 text-blue-400 group-hover:text-gray-100 transition duration-200">Block Explorer &rarr;</span>
+              <span className="font-mono pl-6 text-blue-400 group-hover:text-gray-100 transition duration-200">Block Node Chain Network &rarr;</span>
             </button>
           </div>
         </div>
@@ -72,6 +72,16 @@ export default function Home() {
         </a>
       </div>
       <h2 className=' fixed  absolute flex bottom-8 left-11 text-xs font-mono'>Github</h2>
+   
+
+
+
+
+
+
+
+
+
 
 </main>
   )
