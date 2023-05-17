@@ -23,23 +23,27 @@ export default function Home() {
         </div>
         <div className="flex justify-center ">
           <a
-            className="fixed flex top-10 right-11"
+            className="fixed flex top-5 right-11"
             href="https://www.linkedin.com/company/lfnbnc"
           >
             {''}
             <Image
-              src="/Main.png"
+              src="/svg.svg"
               alt="logo"
-              width={50}
-              height={50}
+              width={100}
+              height={100}
             />
+            <div className='fixed flex top-6 right-11'>
+      <Image src="/whitesvg.svg" alt="Logo" width={100} height={100} />
+      </div>
           </a>
         </div>
       </div>
-
+       
       
-      <div className='fixed'>
+      <div className=''>
       <VideoBackground/>
+     
     </div>
       
 
