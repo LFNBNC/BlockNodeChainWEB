@@ -19,6 +19,8 @@ export default function Home() {
             >
             <h1 className={' m-0  flex top-10 left-11'}>
                Documentation &crarr;</h1>
+               <Image src="/git.svg" alt="Logo" width={20} height={20} />
+
              </a>
         </div>
         <div className="flex justify-center ">
@@ -49,7 +51,7 @@ export default function Home() {
 
       
       
-    <div className="fixed  absolute  right-0 bottom-20 px-8 py-8">
+    <div className=" absolute  right-0 bottom-20 px-8 py-8">
         <div className="grid gap-1 items-start justify-center">
           <div className="relative group">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-700 to-white-100 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
@@ -70,13 +72,16 @@ export default function Home() {
         <a
           href="https://github.com/L-F-N-BlockNodeChain"
           className="">
-          <h1 className=" fixed absolute flex bottom-12 left-11 text-xm font-mono">
+          <h1 className="  absolute flex bottom-12 left-11 text-xm font-mono">
             Block-Node-Chain &crarr;</h1>
 
         </a>
       </div>
-      <h2 className=' fixed  absolute flex bottom-8 left-11 text-xs font-mono'>Github</h2>
-   
+      
+      <h2 className='   absolute flex bottom-8 left-11 text-xs font-mono'>Github</h2>
+       <div className='   absolute flex bottom-8 left-24'>
+       <Image src="/github.svg" alt="Logo" width={15} height={15} />
+       </div>
 
 
 
