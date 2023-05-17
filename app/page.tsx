@@ -17,7 +17,7 @@ export default function Home() {
           <a
             href="https://lfnbnc.gitbook.io/blockchain/"
             >
-            <h1 className={' fixed m-0  flex top-10 left-11'}>
+            <h1 className={' m-0  flex top-10 left-11'}>
                Documentation &crarr;</h1>
              </a>
         </div>
