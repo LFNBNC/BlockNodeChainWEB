@@ -17,7 +17,7 @@ export default function Home() {
           <a
             href="https://lfnbnc.gitbook.io/blockchain/"
             >
-            <h1 className={' m-0  flex top-10 left-11'}>
+            <h1 className={' text-xl m-0  flex top-10 left-11 bg-gradient-to-r from-violet-400 via-white-900 to-blue-400 bg-clip-text text-transparent'}>
                Documentation &crarr;</h1>
                <Image src="/git.svg" alt="Logo" width={20} height={20} />
 
