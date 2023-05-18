@@ -1,5 +1,6 @@
 import "./css/globe.css";
 import createGlobe from "cobe";
+import page from '../app/page';
 import { useEffect, useRef } from "react";
 const globe = () => {
 

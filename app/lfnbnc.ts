@@ -1,34 +1,17 @@
 import { StrictMode } from "react";
 import ReactDOM from "react-dom";
 import globe from "../Component/globe";
+import { useRouter } from 'next/router';
+  
 
+export default Network()  {
+   
+   return (
+      
 
-export default function Network() {
-
-
-
-
-
-
-
-
-
+    <h1> abin <h1>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-}
+   )
+}  
