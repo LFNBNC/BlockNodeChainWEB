@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 import 'tailwindcss/tailwind.css'
 import VideoBackground from '../Component/bvid';
-import lfnbnc from '../app/lfnbnc';
+import lfnbnc from './network';
 
 
 export default function Home() {
