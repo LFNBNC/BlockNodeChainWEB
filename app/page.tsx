@@ -53,7 +53,7 @@ export default function Home() {
       <div className="grid gap-1 items-start justify-center">
         <div className="relative group">
           <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-700 to-white-100 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-          <Link href="/network">
+          <Link href="/network.ts">
             <button className="relative px-3 py-1 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
               <span className="flex items-center space-x-0">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6 text-violet-600 rotate-10">
