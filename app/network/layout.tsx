@@ -1,13 +1,13 @@
 import React from 'react'
 
-export default function Networklayout({
+export default function networklayout({
     children,
   }: {
     children: React.ReactNode
   }) {
     return (
    <>
-     <nav> Network</nav>
+     <nav> network</nav>
      <main>
         {children}
      </main>
