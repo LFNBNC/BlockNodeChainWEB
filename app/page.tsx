@@ -3,16 +3,14 @@ import Link from 'next/link';
 import React from 'react';
 import 'tailwindcss/tailwind.css'
 import VideoBackground from '../Component/bvid';
-import network from '@/app/network';
+import network from '@/app/network/Page';
 
 export default function Home() {
   return (
 
     <main className=" static min-h-screen flex-col items-right justify-center p-10">
       <div className="z-10 w-half max-w-base justify-center font-mono text-base lg:flex ">
-        <h1 className="fixed left-0 top-0 shadow hover:shadow-lg flex w-full justify-center bg-violet-900/30">
-          Block Node Chain Under Development &#169;
-         </h1>
+
         <div className='fixed content left-10'>
           <a
             href="https://lfnbnc.gitbook.io/blockchain/"
@@ -53,7 +51,7 @@ export default function Home() {
       <div className="grid gap-1 items-start justify-center">
         <div className="relative group">
           <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-700 to-white-100 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-          <Link href="/network.tsx">
+          <Link href="/network"> 
             <button className="relative px-3 py-1 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
               <span className="flex items-center space-x-0">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6 text-violet-600 rotate-10">
@@ -61,8 +59,7 @@ export default function Home() {
                 </svg>
                 <h1 className="font-mono pl-6 text-blue-400 group-hover:text-gray-100 transition duration-200"> Block Node Chain Network &rarr; </h1>
               </span>
-        
-            </button>
+             </button>
           </Link>
         </div>
       </div>
@@ -82,16 +79,6 @@ export default function Home() {
        <div className='   absolute flex bottom-8 left-24'>
        <Image src="/github.svg" alt="Logo" width={15} height={15} />
        </div>
-
-
-
-
-
-
-
-
-
-
 </main>
   )
 }
