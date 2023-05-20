@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Network: React.FC = () => {
+const network: React.FC = () => {
   return <div>Hello World</div>;
 };
 
-export default Network;
+export default network;
 
 
 
