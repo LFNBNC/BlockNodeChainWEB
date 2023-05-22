@@ -14,17 +14,10 @@ module.exports = {
 
           fontFamily: {
             code: ['Source Code Pro', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace'],
-            screens: {
-              'sm': '640px',   // Small devices (e.g., smartphones)
-              'md': '768px',   // Medium devices (e.g., tablets)
-              'lg': '1024px',  // Large devices (e.g., laptops)
-              'xl': '1280px',  // Extra large devices (e.g., desktops)
-          
           },
-        }
+          
       },
     },
   },
-  variants: {},
   plugins: [],
 }
