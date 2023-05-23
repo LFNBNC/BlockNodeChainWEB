@@ -29,8 +29,8 @@ const About = () => {
  </div>
       <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="font-mono text-sm text-gray-500 sm:text-center dark:text-gray-400 flex justify-center">© 2023  Block Node Chain™. All Rights Reserved.</span>
-      
+          <span className="font-mono text-sm text-gray-500 sm:text-center dark:text-gray-400 flex justify-center">© 2023  Block Node Chain™</span>
+          <span className="font-mono text-sm text-gray-500 sm:text-center dark:text-gray-400 flex justify-center">   All Rights Reserved</span>
       </div>
       
 </footer>
