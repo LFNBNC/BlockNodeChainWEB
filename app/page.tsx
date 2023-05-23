@@ -16,9 +16,6 @@ const Home: React.FC = () => {
             <h1 className="fixed text-ls m-0 flex top-10 left-11 bg-gradient-to-r from-violet-400 via-white-900 to-blue-400 bg-clip-text text-transparent">
               Documentation &crarr;
             </h1>
-            <div className='fixed m-5 flex top-10 left-20'>
-              <Image src="/git.svg" alt="Logo" width={15} height={20} />
-            </div>
           </a>
         </div>
       </div>
