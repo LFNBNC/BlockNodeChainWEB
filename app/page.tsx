@@ -1,10 +1,10 @@
 import React from 'react';
+import { useRouter } from 'next/router';
 import Image from 'next/image';
 import Link from 'next/link';
 import 'tailwindcss/tailwind.css';
 import VideoBackground from '../Component/bvid';
-import network from '@/app/network/Page';
-import Footer from '@/Component/links';
+import network from '@/app/network';
 import Links from '@/Component/links';
 
 const Home: React.FC = () => {
@@ -45,7 +45,7 @@ const Home: React.FC = () => {
                 className="absolute -inset-0.5 bg-gradient-to-r from-blue-700 to-white-100 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt animate-pulse"
                 style={{ animationDuration: '4s' }}
               ></div>
-              <Link href="/network/page.tsx">
+              <Link href="/Network">
                 <button className="relative px-2 py-2 bg-black rounded-lg leading-none flex items-center">
                   <div className="relative w-8 h-8 animate-ping" style={{ animationDuration: '2s' }}>
                     <Image src="/whitesvg.svg" alt="Logo" width={70} height={70} className="absolute top-0 left-0" />
