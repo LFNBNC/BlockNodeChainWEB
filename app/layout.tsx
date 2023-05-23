@@ -1,5 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+import Links from '@/Component/links';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,8 +17,7 @@ export default function RootLayout({
           Block Node Chain Under Development &#169;
          </h1>
         </nav>
-        
-        {children}</body>
+       {children}</body>
     </html>
   )
 }

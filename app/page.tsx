@@ -63,8 +63,7 @@ const Home: React.FC = () => {
 </main>
         {/* For the bottom links */}
      
-        <Links/>
-
+       <Links/>
 
     </div>
     
