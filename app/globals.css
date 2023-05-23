@@ -1,6 +1,3 @@
-
-
-
 :root {
   --foreground-rgb: 1, 1, 1;
   --background-start-rgb: 0, 0, 0;
@@ -19,11 +16,24 @@ body {
   color: rgb(var(--foreground-rgb));
   background-color: #000000;
     
-
 }
 
 
+.footer{
+  width:100%;
+  height: 500px;
+  position: absolute;
+  bottom: auto;
+}
 
+.wrapper{
+  width: 85%;
+  height:100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
+}
 
 
