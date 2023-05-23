@@ -68,11 +68,14 @@ const Home: React.FC = () => {
 </main>
         {/* For the bottom links */}
      
-       <Links/>
+    
      
     </div>
-     <About/>
-    </div>
+        
+      <About/>
+ 
+</div>
+
   );
 };
 
