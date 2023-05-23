@@ -1,22 +1,13 @@
 const Footer: React.FC = () => {
     return (
-      <footer className=" absolute bottom-50 bg-black-200 py-4 mt-auto ">
-        <div className="container mx-auto px-4 text-xs font-mono">
-           
-           <div className="  container mx-auto px-4 mt-auto">
+        
+        <footer className=" ">
         <div>
-      <a href="https://github.com/L-F-N-BlockNodeChain" className="text-xs font-mono">
+      <a href="https://github.com/L-F-N-BlockNodeChain" className="font-mono">
         Block-Node-Chain &crarr;
       </a>
-      <main className="flex-grow">{}</main>
-     
-    <h2 className="text-xs font-mono"></h2>
-    <div className="">
-      <img src="/github.svg" alt="Logo" width="15" height="15" className="inline-block ml-1" />
+      <img src="/github.svg"  width="15" height="15"  />
     </div>
-    </div>
-    </div>
-        </div>
       </footer>
     );
   };

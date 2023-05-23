@@ -1,17 +1,17 @@
 import Link from "next/link"
 
-export default function Network()  {
+ const Network = () => {
     return (
-      <>
+      <main>
            <h1>Network</h1>
-           <Link href="/"> Link to Home Page </Link>
-      </>
+           
+      </main>
       
     )
 }
 
 
-
+export default Network;
 
 
 
