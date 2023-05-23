@@ -4,9 +4,11 @@ import Link from 'next/link';
 import 'tailwindcss/tailwind.css';
 import VideoBackground from '../Component/bvid';
 import Links from '@/Component/links';
+import Footer from '@/Component/links';
 
 const Home: React.FC = () => {
   return (
+    <div>
     <main className="min-h-screen flex flex-col items-center justify-center p-10">
       <div className="max-w-base w-full lg:flex justify-center">
         <div className="fixed content left-10">
@@ -62,11 +64,12 @@ const Home: React.FC = () => {
       </div>
 
       {/* For the bottom links */}
-      <div >
-        <Links />
-      </div>
+      
+         </main>
 
-    </main>
+      <Footer/>
+
+    </div>
   );
 };
 
