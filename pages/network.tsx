@@ -1,20 +1,18 @@
-// pages/network.js
 import React from 'react';
 import Link from 'next/link';
 
-const NetworkPage = () => {
+const Network = () => {
   return (
     <main>
       <h1>Network</h1>
-      <Link href="/Page">
+      <Link href="/">
         <a>Go back</a>
       </Link>
     </main>
   );
 }
 
-export default NetworkPage;
-
+export default Network;
 
 
 
