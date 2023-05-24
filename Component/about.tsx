@@ -7,23 +7,18 @@ const About = () => {
     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="justify-center">
           
-        
- 
- 
- 
-  <div className="flex justify-center">
-    <h1 className="font-mono">
-      <a href="https://github.com/L-F-N-BlockNodeChain">Github</a>
-     </h1>
-     <h2>
-     ~/\~
-     </h2>
-     <h3 className='font-mono'>
-     <a href="https://www.linkedin.com/company/lfnbnc">Linkedln</a>
-     </h3>
-  </div>
-  <div className="flex justify-center font-mono">
-    
+        <div className="flex justify-center">
+  <h1 className="font-mono">
+    <a href="https://github.com/L-F-N-BlockNodeChain" style={{ marginRight: '2cm' }}>Github</a>
+  </h1>
+  <h2>
+  </h2>
+  <h3 className="font-mono">
+    <a href="https://www.linkedin.com/company/lfnbnc" style={{ marginLeft: '2cm' }}>LinkedIn</a>
+  </h3>
+</div>
+<div className="flex justify-center font-mono">
+
    </div>
 </div>
  </div>

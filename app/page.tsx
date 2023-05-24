@@ -1,4 +1,3 @@
-import React from 'react';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -10,8 +9,8 @@ import About from  '@/Component/about'
 
 
 
-
 const Home: React.FC = () => {
+
   return (
     <div>
     <div>
@@ -39,6 +38,7 @@ const Home: React.FC = () => {
       {/* For the video */}
       <div>
         <VideoBackground />
+        
       </div>
 
       {/* For the Network button */}
