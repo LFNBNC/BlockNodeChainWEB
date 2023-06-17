@@ -6,8 +6,8 @@ import 'tailwindcss/tailwind.css';
 import VideoBackground from '../Component/bvid';
 import Network from '@/pages/network';
 import Links from '@/Component/links';
-import About from  '@/Component/about'
-
+import About from  '@/Component/about';
+import Grid from  '@/Component/grid';
 
 
 
@@ -67,10 +67,14 @@ const Home: React.FC = () => {
           </div>
         </main>
       </div>
+        {/* For the Grids */}
+      <Grid />
 
       {/* For the bottom links */}
       <About />
     </div>
+ 
+
   );
 };
 
