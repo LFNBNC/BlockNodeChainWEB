@@ -23,8 +23,8 @@ const About = () => {
 </div>
  </div>
       <hr className="my-6 border-gray-400 sm:mx-auto dark:border-gray-700 lg:my-7" />
-      <div className=" text-xs sm:flex sm:items-center sm:justify-between">
-          <span className="font-mono text-xs flex justify-center">© 2023  Block Node Chain™</span>
+      <div>
+          <h1 className=" text-sm  font-mono flex justify-center">© 2023  Block Node Chain™</h1>
       </div>
       
 </footer>
