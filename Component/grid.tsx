@@ -7,7 +7,7 @@ const Grid = () => {
     height: '40cm',
   
     position: 'static',
-    background: 'linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 100, 0.5))',
+    background: 'linear-gradient(to bottom, rgba(0, 0, 40, 0.2), rgba(0, 0, 80, 0.3))',
   };
 
   return (
