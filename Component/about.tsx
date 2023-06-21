@@ -3,7 +3,6 @@ import 'tailwindcss/tailwind.css';
 
 const About = () => {
   const frameStyle: React.CSSProperties = {
-    alignItems: 'center',
     background: 'linear-gradient(to right, rgba(0, 0, 255, 0.5), rgba(238, 130, 238, 0.5))',
     padding: '1rem',
   };
@@ -30,12 +29,12 @@ const About = () => {
         <div style={frameStyle}>
           <div className="">
             <h1 className="font-mono">
-              <a href="https://github.com/L-F-N-BlockNodeChain" className="mr-" style={textStyle}>
+              <a href="https://github.com/L-F-N-BlockNodeChain" className="mr-1" style={textStyle}>
                 Github
               </a>
             </h1>
             <h3 className="font-mono">
-              <a href="https://www.linkedin.com/company/lfnbnc" className="ml-" style={textStyle}>
+              <a href="https://www.linkedin.com/company/lfnbnc" className="ml-1" style={textStyle}>
                 LinkedIn
               </a>
             </h3>
