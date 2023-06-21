@@ -11,7 +11,12 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-
+          gridTemplateRows: {
+            bento: 'repeat(auto-fill, minmax(200px, 1fr))',
+          },
+          gridTemplateColumns: {
+            bento: 'repeat(auto-fill, minmax(200px, 1fr))',
+          },
           fontFamily: {
             code: ['Source Code Pro', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace'],
           },
@@ -19,5 +24,6 @@ module.exports = {
       },
     },
   },
+  variants: {},
   plugins: [],
 }
