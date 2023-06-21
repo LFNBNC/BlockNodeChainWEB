@@ -2,14 +2,14 @@ import React from 'react';
 import 'tailwindcss/tailwind.css';
 
 const About = () => {
-  const frameStyle = {
+  const frameStyle: React.CSSProperties = {
     position: 'static',
     bottom: '1rem',
     right: '1rem',
     display: 'flex',
-    justifyContent: 'end',
+    justifyContent: 'flex-end',
     alignItems: 'center',
-    background: 'linear-gradient(to right, blue, violet)',
+    background: 'linear-gradient(to right, rgba(0, 0, 255, 0.5), rgba(238, 130, 238, 0.5))',
   };
 
   return (
@@ -33,10 +33,12 @@ const About = () => {
         </div>
       </div>
 
-      <hr className="my-6 border-gray-400 sm:mx-auto dark:border-gray-700 lg:my-7" />
-
-      <div style={frameStyle}>
-        <h1 className="text-sm font-mono">© 2023  Block Node Chain™</h1>
+      <hr className="my-10 border-gray-400 sm:mx-auto dark:border-gray-700 lg:my-7" />
+      
+      <div className="container mx-auto px-4">
+        <div style={frameStyle}>
+          <h1 className="text-sm font-mono">© 2023  Block Node Chain™</h1>
+        </div>
       </div>
     </footer>
   );

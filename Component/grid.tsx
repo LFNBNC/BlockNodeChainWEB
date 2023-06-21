@@ -4,8 +4,10 @@ import BentoGrid from '../Component/BentoGrid'
 
 const Grid = () => {
   const gridStyle = {
-    height: '20cm',
-    width: '40cm',
+    height: '10cm',
+    width: '10cm',
+    postion:'static'
+    
   };
 
   return (
