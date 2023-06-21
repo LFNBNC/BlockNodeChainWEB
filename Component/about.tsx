@@ -14,6 +14,7 @@ const About = () => {
 
   return (
     <footer className="bg-violet dark:bg-gray-900">
+       <hr className="my-10 border-gray-400 sm:mx-auto dark:border-gray-700 lg:my-7" />
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="justify-center">
           <div className="flex justify-center">
