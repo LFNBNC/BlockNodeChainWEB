@@ -22,6 +22,12 @@ const About = () => {
     padding: '1rem',
   };
 
+  const textforStyle: React.CSSProperties = {
+    fontFamily: 'monospace',
+    fontSize: '11px',
+    color: 'white',
+  };
+
   return (
     <footer className="bg-violet dark:bg-gray-900">
       <hr className="my-10 border-gray-400 sm:mx-auto dark:border-gray-700 lg:my-7" />
@@ -40,7 +46,15 @@ const About = () => {
             </h3>
           </div>
         </div>
-        <div style={copyrightStyle}>© 2023 Block Node Chain™</div>
+        <div className="container mx-auto">
+        
+ 
+        <div style={copyrightStyle} >
+        <h1 style={textforStyle}> © 2023 Block Node Chain™  </h1>
+           
+          </div>
+      </div>
+  
       </div>
     </footer>
   );
