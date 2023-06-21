@@ -7,7 +7,7 @@ import VideoBackground from '../Component/bvid';
 import Network from '@/pages/network';
 import Links from '@/Component/links';
 import About from  '@/Component/about';
-import Grid from  '@/Component/grid';
+import BentoGrid from '@/Component/grid';
 
 
 
@@ -68,7 +68,7 @@ const Home: React.FC = () => {
         </main>
       </div>
         {/* For the Grids */}
-      <Grid />
+      <BentoGrid/>
 
       {/* For the bottom links */}
       <About />
