@@ -5,9 +5,9 @@ import BentoGrid from '../Component/BentoGrid';
 const Grid = () => {
   const gridStyle: React.CSSProperties = {
     height: '40cm',
-  
+
     position: 'static',
-    background: 'linear-gradient(to bottom, rgba(0, 0, 40, 0.2), rgba(0, 0, 80, 0.3))',
+    background: 'linear-gradient(to bottom, rgba(0, 0, 40, 0.2), rgba(0, 0, 80, 0.6))',
   };
 
   return (
