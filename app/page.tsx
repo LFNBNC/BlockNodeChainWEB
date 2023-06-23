@@ -19,7 +19,7 @@ const Home: React.FC = () => {
       <div className="max-w-base w-full lg:flex justify-center">
         <div className="fixed content left-10">
           <a href="https://lfnbnc.gitbook.io/blockchain/">
-            <h1 className="fixed text-ls m-0 flex top-10 left-11 bg-gradient-to-b from-violet-900 via-white-100 to-blue-100 bg-clip-text text-transparent">
+            <h1 className="fixed text-ls m-0 flex top-10 left-11 bg-gradient-to-r from-violet-800 via-white-900 to-violet-400 bg-clip-text text-transparent">
               Documentation &crarr;
             </h1>
           </a>
