@@ -16,7 +16,7 @@ const Grid = () => {
       <div className="grid grid-cols-bento grid-rows-bento gap-4 md:w-1/2 mx-auto" style={gridStyle}>
         <BentoGrid>
           <div className="bg-white hover:bg-gray-200 transition-colors duration-300 flex items-center justify-center text-gray-800 rounded-lg p-4">
-            Grid-1
+            Grid-
           </div>
           <div className="bg-white hover:bg-gray-200 transition-colors duration-300 flex items-center justify-center text-gray-800 rounded-lg p-4">
             Grid-2
