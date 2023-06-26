@@ -8,7 +8,7 @@ const Grid = () => {
   const gridContainerBgStyle = 'bg-gradient-to-b from-blue-100 to-blue-300';
   const boxShadowStyle = 'shadow-md';
   const gridStyle: React.CSSProperties = {
-    height: '30cm',
+    height: '50cm',
     borderRadius: '10px',
     backdropFilter: 'blur(0px)',
     boxShadow: '0 0 10px rgba(0, 0, 0, 0.3)',
@@ -17,13 +17,16 @@ const Grid = () => {
 
   return (
     <div className={`container no-padding footer-note ${gridContainerBgStyle}`}>
-      <hr className="my-10 border-gray-400 sm:mx-auto dark:border-gray-700 lg:my-7" />
+     
       <div className={`grid ${gridContainerStyle} ${boxShadowStyle}`} style={gridStyle}>
         <BentoGrid>
         <div className={gridItemStyle}>
   <h1 className="text-blue-900"></h1> {/* Set the text color as blue */}
-  <div></div>
-                  </div>
+               <div>
+
+
+               </div>
+               </div>
 
         </BentoGrid>
       </div>
