@@ -43,8 +43,6 @@ const About = () => {
 
   return (
     <footer className="bg-violet dark:bg-gray-900">
-      <hr className="my-10 border-gray-400 sm:mx-auto dark:border-gray-700 lg:my-7" />
-
       <div className="container mx-auto">
         <div style={frameStyle}>
           <Image src="/bgaaa.jpeg" alt="Background Image" layout="fill" objectFit="cover" quality={100} priority={true} />
