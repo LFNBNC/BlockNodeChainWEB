@@ -24,7 +24,7 @@ const Grid = () => {
   <h1 className="text-blue-900"></h1> {/* Set the text color as blue */}
                <div>
 
-
+                 <h1>What Does Block Node Chain Network Solve ..?</h1>
                </div>
                </div>
 
