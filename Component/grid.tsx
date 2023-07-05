@@ -33,8 +33,7 @@ const Grid = () => {
     </div>
   );
 };
-
-export default Grid;
+export default Grid;  //grid u[]
 
 
 
