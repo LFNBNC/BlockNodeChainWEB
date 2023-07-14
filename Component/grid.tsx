@@ -25,6 +25,7 @@ const Grid = () => {
                <div>
 
                  <h1>What Does Block Node Chain Network Solve ..?</h1>
+                   <h2 className=''>   Decentralized Computing Networking BlockChain </h2>
                </div>
                </div>
 
