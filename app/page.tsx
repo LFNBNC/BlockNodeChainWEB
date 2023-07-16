@@ -52,7 +52,7 @@ const Home: React.FC = () => {
                   ></div>
                   <Link href="/Network">
                     <button className="relative px-2 py-2 bg-black rounded-lg leading-none flex items-center">
-                      <div className="relative w-8 h-8 animate-ping" style={{ animationDuration: '2s' }}>
+                      <div className="relative w-9 h-9 animate-pulse" style={{ animationDuration: '2s' }}>
                         <Image src="/whitesvg.svg" alt="Logo" width={70} height={70} className="absolute top-0 left-0" />
                         <Image src="/svg.svg" alt="Logo" width={70} height={70} className="absolute top-1 left-0" />
                       </div>
