@@ -19,7 +19,7 @@ const Grid: React.FC = () => {
 
           <div className={gridItemStyle}>
             <div className="rectangle-box">
-              <h1 className="text-blue-900"> What Does Block Node Chain Network Solve  ?</h1>
+              <h1 className="text-white-900"> What Does Block Node Chain Network Solve  ?</h1>
              </div>
           </div>
         </div>
