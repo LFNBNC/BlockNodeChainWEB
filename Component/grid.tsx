@@ -14,14 +14,14 @@ const Grid: React.FC = () => {
   };
 
   return (
+      
     <div className={`grid ${gridContainerStyle} ${boxShadowStyle}`} style={gridStyle}>
 
           <div className={gridItemStyle}>
-            <div className="rectangle-box">
-             
-          </div>
+      
         </div>
         </div>
+        
         
 
 

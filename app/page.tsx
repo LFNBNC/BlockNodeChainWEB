@@ -15,7 +15,7 @@ const Home: React.FC = () => {
   return (
     <div>
     <div>
-    <main className="min-h-screen flex flex-col items-center justify-center p-10">
+    <div className="min-h-screen flex flex-col items-center justify-center p-10">
       <div className="max-w-base w-full lg:flex justify-center">
         <div className="fixed content left-10">
           <a href="https://lfnbnc.gitbook.io/blockchain/">
@@ -65,7 +65,7 @@ const Home: React.FC = () => {
               </div>
             </div>
           </div>
-        </main>
+        </div>
       </div>
         {/* For the Grids */}
       <Grid/>
