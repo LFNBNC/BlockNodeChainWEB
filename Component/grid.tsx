@@ -14,16 +14,15 @@ const Grid: React.FC = () => {
   };
 
   return (
-    <div className={`container no-padding footer-note ${gridContainerBgStyle}`}>
-      <div className={`grid ${gridContainerStyle} ${boxShadowStyle}`} style={gridStyle}>
+    <div className={`grid ${gridContainerStyle} ${boxShadowStyle}`} style={gridStyle}>
 
           <div className={gridItemStyle}>
             <div className="rectangle-box">
-              <h1 className="text-white-900"> What Does Block Node Chain Network Solve  ?</h1>
-             </div>
+             
           </div>
         </div>
-    </div>
+        </div>
+        
 
 
   );
