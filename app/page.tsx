@@ -8,7 +8,7 @@ import Network from '@/pages/network';
 import Links from '@/Component/links';
 import About from  '@/Component/about';
 import Grid from '@/Component/grid';
-
+import Bgv from '@/Component/bgv';
 
 
 const Home: React.FC = () => {
@@ -38,6 +38,7 @@ const Home: React.FC = () => {
 
       {/* For the video */}
       <div>
+        
         <VideoBackground />
       </div>
 
@@ -69,6 +70,7 @@ const Home: React.FC = () => {
       </div>
         {/* For the Grids */}
       <Grid/>
+      <Bgv/>
 
       {/* For the bottom links */}
       <About />
