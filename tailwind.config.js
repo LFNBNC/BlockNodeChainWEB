@@ -18,9 +18,14 @@ module.exports = {
             bento: 'repeat(auto-fill, minmax(200px, 1fr))',
           },
           fontFamily: {
-            code: ['Source Code Pro', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace'],
+            orbitron: "Orbitron",
           },
-          
+          fontSize: {
+            "5xl": "24px",
+          },
+          corePlugins: {
+            preflight: false,
+          },
       },
     },
   },

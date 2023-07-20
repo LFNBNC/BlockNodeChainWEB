@@ -18,7 +18,17 @@ const Grid: React.FC = () => {
     <div className={`grid ${gridContainerStyle} ${boxShadowStyle}`} style={gridStyle}>
 
           <div className={gridItemStyle}>
+          <div className="relative bg-black w-full h-[870px] overflow-hidden text-left text-5xl text-lawngreen font-orbitron">
       
+          Block Node Chain
+        </div>
+       
+     
+    
+
+
+         
+       
         </div>
         </div>
         
