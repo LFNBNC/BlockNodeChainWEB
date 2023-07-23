@@ -14,24 +14,24 @@ const Grid: React.FC = () => {
   };
 
   return (
-      
+
     <div className={`grid ${gridContainerStyle} ${boxShadowStyle}`} style={gridStyle}>
 
-          <div className={gridItemStyle}>
-          
-         <div>
-          
-         </div>
-     
-    
+      <div className={gridItemStyle}>
+
+        <div>
+
+        </div>
+        <h1 className='flex justify-center'> Updating BentoGrids </h1>
 
 
-         
-       
-        </div>
-        </div>
-        
-        
+
+
+
+      </div>
+    </div>
+
+
 
 
   );
