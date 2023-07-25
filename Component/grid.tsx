@@ -22,9 +22,9 @@ const Grid: React.FC = () => {
         <div>
 
         </div>
-        <h1 className='flex justify-center'> Updating BentoGrids </h1>
+        <h1 className='BentoGrids'> Updating BentoGrids </h1>
 
-
+              
 
 
 
