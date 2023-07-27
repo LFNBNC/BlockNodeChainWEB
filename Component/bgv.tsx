@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Bgv = () => {
@@ -19,16 +18,24 @@ const Bgv = () => {
         <source src="/BF.mp4" type="video/mp4" />
       </video>
 
+      {/* Box with White Border */}
       <div style={{
         position: 'absolute',
         top: '50%',
         left: '50%',
         transform: 'translate(-50%, -50%)',
-        fontSize: '3rem',
-        color: 'red',
-        fontWeight: 'bold',
+        border: '1px solid white',
+        padding: '8px',
+        borderRadius: '10px',
       }}>
-        BentoGrid
+        <div style={{
+          fontSize: '3rem',
+          color: 'blueviolet',
+          fontWeight: 'Mono',
+        }}>
+          The Block Node Network Run On POC 
+         
+        </div>
       </div>
     </div>
   );

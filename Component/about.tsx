@@ -27,6 +27,16 @@ const About = () => {
     zIndex: 1,
   };
 
+  const centerImageStyle: React.CSSProperties = {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    zIndex: 2,
+    width: '100px',
+    height: '100px',
+  };
+
   const copyrightStyle: React.CSSProperties = {
     ...textStyle,
     display: 'flex',
@@ -46,6 +56,10 @@ const About = () => {
       <div className="container mx-auto">
         <div style={frameStyle}>
           <Image src="/bgaaa.jpeg" alt="Background Image" layout="fill" objectFit="cover" quality={100} priority={true} />
+          <div style={centerImageStyle}>
+            {/* Replace '/image.svg' with the path to your SVG file */}
+            <Image src="/image.svg" alt="Image" width={100} height={100} />
+          </div>
           {/* Rest of your content */}
           <div className="text-white">
             <h1 className="font-mono" style={textStyle}>
@@ -59,12 +73,11 @@ const About = () => {
               </a>
             </h3>
             <div style={copyrightStyle}>
-          <h1 style={textforStyle}>© 2023 Block Node Chain™</h1>
-        </div>
+              <h1 style={textforStyle}>© 2023 Block Node Chain™</h1>
+            </div>
           </div>
         </div>
-        {/* Rest of your code */}
-       
+        {/**/}
       </div>
     </footer>
   );
