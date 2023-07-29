@@ -4,8 +4,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import 'tailwindcss/tailwind.css';
 import VideoBackground from '../Component/bvid';
-import Network from '@/pages/network';
-
 import About from  '@/Component/about';
 import Grid from '@/Component/grid';
 import Bgv from '@/Component/bgv';
@@ -41,7 +39,7 @@ const Home: React.FC = () => {
                     className="absolute -inset-0.5 bg-gradient-to-r from-blue-700 to-white-100 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt animate-pulse"
                     style={{ animationDuration: '4s' }}
                   ></div>
-                  <Link href="/Network">
+                  <Link href="/network">
                     <button className="relative px-2 py-2 bg-black rounded-lg leading-none flex items-center">
                       <div className="relative w-9 h-9 animate-pulse" style={{ animationDuration: '2s' }}>
                         <Image src="/whitesvg.svg" alt="Logo" width={70} height={70} className="absolute top-0 left-0" />
@@ -60,6 +58,7 @@ const Home: React.FC = () => {
       </div>
         {/* For the Grids */}
       <Grid/>
+      
       <Bgv/>
 
       {/* For the bottom links */}

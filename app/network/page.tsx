@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const Network = () => {
+const network = () => {
   return (
     <main>
       <h1>Network</h1>
@@ -12,22 +12,4 @@ const Network = () => {
   );
 }
 
-export default Network;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+export default network;
