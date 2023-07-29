@@ -13,7 +13,7 @@ const Bgv = () => {
         width: '100%',
         height: '100%',
         opacity: 0.1,
-        filter: 'blur(0px)',
+        filter: 'blur(20px)',
       }}>
         <source src="/BF.mp4" type="video/mp4" />
       </video>
