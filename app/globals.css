@@ -44,13 +44,5 @@ body {
   padding: 20px;
 }
 
-body {
-  @apply leading-[normal] m-0;
-}
-*,
-::before,
-::after {
-  border-width: 0;
-}
 
 
