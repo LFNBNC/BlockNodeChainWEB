@@ -1,22 +1,15 @@
-import * as THREE from "three";
-import { OrbitControls } from "three/addons/controls/OrbitControls.js";
-import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
-import { UnrealBloomPass } from "three/addons/postprocessing/UnrealBloomPass.js";
-import { EffectComposer } from "three/addons/postprocessing/EffectComposer.js";
-import { RenderPass } from "three/addons/postprocessing/RenderPass.js";
-import { OutputPass } from "three/addons/postprocessing/OutputPass.js";
-import { test } from "node:test";
+// components/DynamicCanvas.js
+import React, { useEffect, useRef } from 'react';
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
-let composer, scene, camera, renderer, group;
+const DynamicCanvas = () => {
+  const canvasRef = useRef(null);
 
-const params = {
-	threshold: 10,
-	strength: 0,
-	radius: 2,
-	exposure: 10
-};
-
-let allGeometry = [];
+  useEffect(() => {
+    let composer, scene, camera, renderer, group;
+    let allGeometry = [];
 
 function init() {
 	scene = new THREE.Scene();
@@ -151,5 +144,13 @@ function animate() {
 init();
 animate();
 
+    // Clean up the animation when the component unmounts
+    return () => {
+      cancelAnimationFrame(animate);
+    };
+  }, []);
 
-export default test;
+  return <div ref={canvasRef} id="canvas-container"></div>;
+};
+
+export default DynamicCanvas;

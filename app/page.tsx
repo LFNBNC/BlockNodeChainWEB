@@ -1,5 +1,4 @@
 import React from 'react';
-import { useRouter } from 'next/router';
 import Image from 'next/image';
 import Link from 'next/link';
 import 'tailwindcss/tailwind.css';
@@ -7,6 +6,8 @@ import VideoBackground from '../Component/bvid';
 import About from  '@/Component/about';
 import Grid from '@/Component/grid';
 import Bgv from '@/Component/bgv';
+
+
 
 
 const Home: React.FC = () => {
@@ -60,6 +61,7 @@ const Home: React.FC = () => {
       <Grid/>
       
       <Bgv/>
+      
 
       {/* For the bottom links */}
       <About />
