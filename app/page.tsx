@@ -59,7 +59,7 @@ const Home: React.FC = () => {
       </div>
         {/* For the Grids */}
       <Grid/>
-      
+       {/* three js update */}
       <Bgv/>
       
 
