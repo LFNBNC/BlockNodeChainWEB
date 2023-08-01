@@ -21,14 +21,14 @@ const Bgv = () => {
         zIndex: 1,
       }}>
         <div style={{ background: 'rgba(123, 104, 238, 0.5)' }}>Block Node Chain</div>
-        <div style={{ background: 'blue' }}></div>
-        <div style={{ background: 'purple' }}>3</div>
-        <div style={{ background: 'yellow' }}>4</div>
-        <div style={{ background: 'orange' }}>5</div>
-        <div style={{ background: 'red' }}>6</div>
-        <div style={{ background: 'green' }}>7</div>
-        <div style={{ background: 'pink' }}>8</div>
-        <div style={{ background: 'teal' }}>9</div>
+        <div style={{ background: 'blue' }}>t1</div>
+        <div style={{ background: 'purple' }}>t2</div>
+        <div style={{ background: 'yellow' }}>t3</div>
+        <div style={{ background: 'orange' }}>t5</div>
+        <div style={{ background: 'red' }}>t6</div>
+        <div style={{ background: 'green' }}>t7</div>
+        <div style={{ background: 'pink' }}>t8</div>
+        <div style={{ background: 'teal' }}>t9</div>
       </div>
 
       {/* Text above the video */}
