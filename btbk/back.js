@@ -143,6 +143,9 @@ function animate() {
 			);
 			particles.geometry.attributes.position.needsUpdate = true;
 			particles.geometry.attributes.color.needsUpdate = true;
+
+
+			
 		}
 	}
 	composer.render();
